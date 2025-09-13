@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="13.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Auto.Domain\Auto.Domain.csproj" />
+    <ProjectReference Include="..\Auto.MQTT\Auto.MQTT.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="LED\Temp\" />
+  </ItemGroup>
+
+</Project>
