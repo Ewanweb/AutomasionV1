@@ -9,6 +9,6 @@ namespace Auto.MQTT
     public static class Topics
     {
         public const string LedStatus = "home/led";
-        public const string Temp = "home/dht";
+        public const string Temp = "dht";
     }
 }
